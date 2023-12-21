@@ -24,13 +24,17 @@ body {
 	float: right;
 }
 .header-list-link {
+	margin-left: 20px;
 	color: #fff;
 }
 a {
 	color: #EB7A44;
 	text-decoration: none;
 }
-
+.text {
+	margin-top: 20px;
+	margin-bottomd: 20px;
+}
 .header-list:hover {
 	transition: 0.7s;
 	background-color: #ff0000;
@@ -46,16 +50,63 @@ a {
 }
 .nav-box {
 	width: 100%;
-	height: 600px;
+	height: 1000px;
 }
 .box-left {
-	background-color: red;
 	float: left;
-	width: 45%;
-	height: 500px;
+	width: 47%;
+	height: 600px;
+}
 .box-right {
-	background-color: red;
+	margin-right: 20px;
 	float: right;
-	width: 45%;
-	height: 500px;
+	width: 47%;
+	height: 600px;
+}
+
+
+
+.images {
+	margin-left: 20px;
+	height: 60px;
+}
+.item {
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+.title {
+	margin-left: 20px;
+	margin-top: 60px;
+}
+.img {
+	margin-left: 20px;
+	height: 280px;
+	width: 715px;
+}
+.items {
+	list-style: none;
+}
+.text ,.list ,.img  {
+	margin-left: 20px;
+}
+.images2 {
+	width: 100%;
+	height: 60px;
+}
+.images3 {
+	margin-right: 10px;
+
+	float: left;
+	width: 300px;
+}
+.text-Wekocme {
+	font-size: 40px;
+}
+.box-tex {
+	float: right;
+}
+.text-welcome {
+	font-size: 50px;
+	margin-top: 50px;
 }
